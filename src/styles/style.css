@@ -1,7 +1,113 @@
-/** CSS STYLE **/
+@font-face {
+  font-family: "OpenSansItalic";
+  src: url("../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  font-style: italic;
+}
 
-.hello {
-  display: block;
+@font-face {
+  font-family: "OpenSansNormal";
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
 
+@font-face {
+  font-family: "NeuchaRegular";
+  src: url("../fonts/Neucha-Regular.ttf") format("truetype");
+}
+
+html, 
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section {
+  width: 100%;
+  padding: 100px 165px;
+  background-color: white;
+  position: relative;
+}
+
+.section::before {
+  content: "";
+  position: absolute;
+  background: url('../img/background.png') no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+.header {
+  background-color: #f5f4f0;
+  height: 714px;
+}
+
+
+h1 {
+  position: relative;
+  font-family: "NeuchaRegular";
+  color: #FE8A02;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.2em;
+  margin: 0;
+  z-index: 2;
+}
+
+.h1-black {
+  color: #2A2626;
+}
+
+img {
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  left: 461px;
+  z-index: 1;
+}
+
+.col-2 {
+  column-count: 2;
+  column-gap: 30px;
+  column-width: 540px;
+  margin-top: 185px;
+  height: 186px;
+  padding-top: 15px;
+}
+
+p {
+font-family: "OpenSansNormal", sans-serif;
+font-size: 16px;
+line-height: 1.6em;
+color: #2A2626;
+margin: 0;
+}
+
+header article p:first-child {
+  height: 150px
+}
+
+header article p:last-child {
+  margin-top: 15px;
+}
+
+a {
+  position: absolute;
+  top: 765px;
+  left: 735px;
+  font-family: "OpenSansNormal", sans-serif;
+  background-color: #FE8A02;
   color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 16px;
 }
