@@ -26,13 +26,19 @@ body {
   justify-content: center;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: "NeuchaRegular";
-  color: #FE8A02;
   font-weight: 400;
-  font-size: 72px;
   line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
   margin: 0;
+}
+
+h3 {
+  font-size: 34px;
 }
 
 .h1-black {
@@ -51,6 +57,14 @@ p {
   width: 100vw;
   padding: 100px 165px;
   position: relative;
+}
+
+.orange {
+  color:#FE8A02;
+}
+
+.white {
+  color: #fff;
 }
 
 .std-bkgrd::before {
@@ -92,9 +106,10 @@ main {
   margin-bottom: 30px;
 }
 
-.second-section {
+#navigation {
+  padding-top: 200px;
   background-color: #42413C;
-  height: 991px;
+  height: 691px;
 }
 
 img {
@@ -121,7 +136,7 @@ header article p:last-child {
   margin-top: 15px;
 }
 
-a {
+header a {
   position: absolute;
   top: 765px;
   left: 735px;
@@ -139,4 +154,52 @@ a {
   bottom: -17px;
   z-index: 1;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+td {
+  display: inline-block;
+  background-color: #f5f4f0;
+  border: none;
+  width: 302px;
+  padding: 24px;
+  margin: 0;
+}
+
+.row-1 td {
+  height: 275px;
+  margin-bottom: 20px;
+}
+
+.row-2 td {
+  height: 300px;
+}
+
+td.h-card {
+  background-color: #42413C;
+  padding: 0;
+  width: 350px;
+  height: 323px;
+}
+
+.h2-card-text {
+  font-size: 52px;
+  margin: 0;
+}
+
+.num {
+  font-family: "NeuchaRegular";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.nav-card-header {
+  margin-bottom: 16px;
+}
+
+.middle {
+  margin-left: 30px;
+  margin-right: 30px;
 }
