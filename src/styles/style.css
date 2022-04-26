@@ -26,6 +26,10 @@ body {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1, h2, h3 {
   font-family: "NeuchaRegular";
   font-weight: 400;
@@ -54,7 +58,7 @@ p {
   }
 
 .section {
-  width: 100vw;
+  width: 1110px;
   padding: 100px 165px;
   position: relative;
 }
@@ -86,10 +90,6 @@ header {
   z-index: 1;
 }
 
-main {
-  width: 100%;
-}
-
 .video-section {
   display: flex;
   justify-content: center;
@@ -110,6 +110,14 @@ main {
   padding-top: 200px;
   background-color: #42413C;
   height: 691px;
+  width: 1110px;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+
+table {
+  border-spacing: 0;
+  padding: 0;
 }
 
 img {
