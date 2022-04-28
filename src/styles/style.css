@@ -230,34 +230,29 @@ td.h-card {
 
 #ikea-effect {
   height: 705px;
-  background-color: #F5F4F0;
 }
 
-#ikea-effect .col-2 {
-  column-gap: 45px;
-}
-
-.ikea-header {
+.distortion-header {
+  display: flex;
+  justify-content: center;
   z-index: 3;
 }
 
-.img-container {
-  width: 578px;
-}
 
-.ikea-text {
-  width: 502px;
-}
-
-.ikea-text h4 {
-  margin-bottom: 0;
-  margin-left: 30px;
+.theme {
   height: 29px;
   font-family: "NeuchaRegular";
   font-weight: 400;
   line-height: 1.2em;
   font-size: 24px;
+}
+
+.white-section .header-text .theme {
   color: #908D8B;
+}
+
+.brown-section .header-text .theme {
+  color: #D7CCC0;
 }
 
 .img-container img {
@@ -267,14 +262,16 @@ td.h-card {
   margin-bottom: 100px;
 }
 
-.ikea-text h2 {
-  margin: 0 0 0 30px;
-  color: #2A2626
+.distortion-section .header-text h2, h3, .theme {
+  display: inline-block;
 }
 
-.ikea-text h3 {
-  margin: 30px 0 0 30px;
-  color: #2A2626;
+.distortion-header .header-text h2, .theme {
+  margin: 0;
+}
+
+.distortion-header .header-text h3 {
+  margin: 30px 0 0 0;
 }
 
 .how {
@@ -282,8 +279,6 @@ td.h-card {
   font-weight: 700;
   font-size: 14px;
   display: block;
-  color: #fff;
-  background-color: #B09A81;
   padding: 5px 10px;
   line-height: 1.2em;
   margin-top: 0;
@@ -291,6 +286,60 @@ td.h-card {
   height: 16px;
 }
 
+.white-section .how {
+  color: #fff;
+  background-color: #B09A81;
+}
+
+.brown-section .how {
+  color: #B09A81;
+  background-color: #fff;
+}
+
 .how-article p:first-child{
   break-after: column;
+}
+
+#premature-optimization {
+  height: 655px;
+}
+
+.white-section {
+  background-color: #F5F4F0;
+}
+
+.brown-section {
+  background-color: #B09A81;
+}
+
+.brown-section .header-text {
+  color: #2A2626;
+}
+
+.brown-section .header-text {
+  color: #fff;
+}
+
+.white-section .how-article p {
+  color: #2A2626;
+}
+
+.brown-section .how-article p {
+  color: #fff;
+}
+
+.distortion-header .header-text, .img-container {
+  display: inline-block;
+}
+
+.header-text {
+  width: 502px;
+}
+
+.white-section .header-text, .brown-section .img-container {
+  margin-left: 15px;
+}
+
+.brown-section .header-text, .white-section .img-container {
+  margin-right: 15px;
 }
