@@ -133,8 +133,16 @@ header {
   height: 705px;
 }
 
-#premature-optimization {
-  height: 655px;
+#premature-optimization h2 {
+  color: #FE8A02;
+}
+
+#premature-optimization p{
+  color: #fff;
+}
+
+#premature-optimization .header-text h2 {
+  color: #fff;
 }
 
 #distortion-of-novelty {
@@ -459,4 +467,8 @@ label button::before {
 .video-section p {
   display: block;
   height: 26px;
+}
+
+.brown-section .header-text .description {
+  color: #fff;
 }
