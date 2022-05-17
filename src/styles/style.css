@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "OpenSansItalic";
+  font-family: OpenSansItalic;
   src: url("../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
   font-style: italic;
 }
 
 @font-face {
-  font-family: "OpenSansNormal";
+  font-family: OpenSansNormal;
   src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "NeuchaRegular";
+  font-family: NeuchaRegular;
   src: url("../fonts/Neucha-Regular.ttf") format("truetype");
 }
 
-html, 
+html,
 body {
   padding: 0;
   margin: 0;
@@ -30,8 +30,10 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
-  font-family: "NeuchaRegular";
+h1,
+h2,
+h3 {
+  font-family: NeuchaRegular;
   font-weight: 400;
   line-height: 1.2em;
 }
@@ -52,12 +54,12 @@ h3 {
 }
 
 p {
-  font-family: "OpenSansNormal", sans-serif;
+  font-family: OpenSansNormal, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
   margin: 0;
-  }
+}
 
 .section {
   width: 1110px;
@@ -276,10 +278,9 @@ td.h-card {
   z-index: 3;
 }
 
-
 .theme {
   height: 29px;
-  font-family: "NeuchaRegular";
+  font-family: NeuchaRegular;
   font-weight: 400;
   line-height: 1.2em;
   font-size: 24px;
@@ -309,7 +310,7 @@ td.h-card {
 }
 
 .how {
-  font-family: 'OpenSansNormal';
+  font-family: OpenSansNormal;
   font-weight: 700;
   font-size: 14px;
   display: block;
@@ -376,7 +377,7 @@ td.h-card {
 }
 
 .description {
-  font-family: "NeuchaRegular";
+  font-family: NeuchaRegular;
   font-weight: 400;
   line-height: 1.2em;
   font-size: 34px;
