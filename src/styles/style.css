@@ -112,6 +112,11 @@ p {
   display: inline-block;
 }
 
+.distortion-header .header-text h2,
+.theme {
+  margin: 0;
+}
+
 .white-section .header-text .theme {
   color: #908d8b;
 }
@@ -171,6 +176,18 @@ header article p:first-child {
 
 header article p:last-child {
   margin-top: 15px;
+}
+
+.how-article p:first-child {
+  break-after: column;
+}
+
+.white-section .how-article p {
+  color: #2a2626;
+}
+
+.brown-section .how-article p {
+  color: #fff;
 }
 
 #premature-optimization p {
@@ -315,8 +332,11 @@ td.h-card {
   margin-bottom: 100px;
 }
 
-.distortion-header .header-text h2,
-.theme {
+.description {
+  font-family: NeuchaRegular, sans-serif;
+  font-weight: 400;
+  line-height: 1.2em;
+  font-size: 34px;
   margin: 0;
 }
 
@@ -346,10 +366,6 @@ td.h-card {
   background-color: #fff;
 }
 
-.how-article p:first-child {
-  break-after: column;
-}
-
 .white-section {
   background-color: #f5f4f0;
 }
@@ -358,25 +374,17 @@ td.h-card {
   background-color: #b09a81;
 }
 
-.brown-section .header-text {
-  color: #2a2626;
-}
-
-.brown-section .header-text {
-  color: #fff;
-}
-
-.white-section .how-article p {
-  color: #2a2626;
-}
-
-.brown-section .how-article p {
-  color: #fff;
-}
-
 .header-text {
   display: block;
   width: 502px;
+}
+
+.white-section .header-text {
+  color: #2a2626;
+}
+
+.brown-section .header-text {
+  color: #fff;
 }
 
 .white-section .header-text,
@@ -389,16 +397,8 @@ td.h-card {
   margin-right: 15px;
 }
 
-#errors-in-planning .how-article p:nth-child(3){
+#errors-in-planning .how-article p:nth-child(3) {
   margin-top: 14px;
-}
-
-.description {
-  font-family: NeuchaRegular, sans-serif;
-  font-weight: 400;
-  line-height: 1.2em;
-  font-size: 34px;
-  margin: 0;
 }
 
 .field {
