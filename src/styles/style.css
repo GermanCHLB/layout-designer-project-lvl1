@@ -167,6 +167,7 @@ footer {
   width: 100%;
   text-align: center; 
   margin-bottom: 27px;
+  height: 146px;
 }
 
 header img {
@@ -467,6 +468,7 @@ label button::before {
 .video-section p {
   display: block;
   height: 26px;
+  color: #212529;
 }
 
 .brown-section .header-text .description {
