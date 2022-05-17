@@ -100,7 +100,7 @@ p {
 
 .theme {
   height: 29px;
-  font-family: NeuchaRegular;
+  font-family: NeuchaRegular, sans-serif;
   font-weight: 400;
   line-height: 1.2em;
   font-size: 24px;
@@ -141,6 +141,10 @@ header {
 
 #ikea-effect {
   height: 705px;
+}
+
+.distortion-section .header-text h2, .description, .theme {
+  display: inline-block;
 }
 
 #premature-optimization h2 {
@@ -234,7 +238,7 @@ header a {
 .video {
   margin-top: 30px;
   z-index: 1;
-  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 0.15));
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
 table {
@@ -305,15 +309,12 @@ td.h-card {
 .img-container img {
   vertical-align: middle;
   z-index: 3;
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   margin-bottom: 100px;
 }
 
-.distortion-section .header-text h2, .description, .theme {
-  display: inline-block;
-}
-
-.distortion-header .header-text h2, .theme {
+.distortion-header .header-text h2,
+.theme {
   margin: 0;
 }
 
@@ -376,11 +377,13 @@ td.h-card {
   width: 502px;
 }
 
-.white-section .header-text, .brown-section .img-container {
+.white-section .header-text,
+.brown-section .img-container {
   margin-left: 15px;
 }
 
-.brown-section .header-text, .white-section .img-container {
+.brown-section .header-text,
+.white-section .img-container {
   margin-right: 15px;
 }
 
