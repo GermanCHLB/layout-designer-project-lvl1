@@ -98,6 +98,14 @@ p {
   column-gap: 30px;
 }
 
+.theme {
+  height: 29px;
+  font-family: NeuchaRegular;
+  font-weight: 400;
+  line-height: 1.2em;
+  font-size: 24px;
+}
+
 .white-section .header-text .theme {
   color: #908d8b;
 }
@@ -139,8 +147,20 @@ header {
   color: #fe8a02;
 }
 
+.contact p {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.video-section p {
+  display: block;
+  height: 26px;
+  color: #212529;
+}
+
 header article p:first-child {
-  height: 150px
+  height: 150px;
 }
 
 header article p:last-child {
@@ -204,7 +224,7 @@ header a {
   top: 765px;
   left: 735px;
   font-family: OpenSansNormal, sans-serif;
-  background-color: #FE8A02;
+  background-color: #fe8a02;
   color: #fff;
   padding: 12px 24px;
   font-weight: bold;
@@ -214,7 +234,7 @@ header a {
 .video {
   margin-top: 30px;
   z-index: 1;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 0.15));
 }
 
 table {
@@ -241,7 +261,7 @@ td {
 }
 
 td.h-card {
-  background-color: #42413C;
+  background-color: #42413c;
   padding: 0;
   width: 350px;
   height: 323px;
@@ -253,8 +273,8 @@ td.h-card {
 }
 
 .num {
-  color: #42413C;
-  font-family: "NeuchaRegular";
+  color: #42413c;
+  font-family: NeuchaRegular, sans-serif;
   font-weight: 400;
   font-size: 64px;
   line-height: 1;
@@ -276,14 +296,6 @@ td.h-card {
   justify-content: center;
   flex-wrap: wrap;
   z-index: 3;
-}
-
-.theme {
-  height: 29px;
-  font-family: NeuchaRegular;
-  font-weight: 400;
-  line-height: 1.2em;
-  font-size: 24px;
 }
 
 .img-container {
@@ -310,7 +322,7 @@ td.h-card {
 }
 
 .how {
-  font-family: OpenSansNormal;
+  font-family: OpenSansNormal, sans-serif;
   font-weight: 700;
   font-size: 14px;
   display: block;
@@ -323,11 +335,11 @@ td.h-card {
 
 .white-section .how {
   color: #fff;
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
 
 .brown-section .how {
-  color: #B09A81;
+  color: #b09a81;
   background-color: #fff;
 }
 
@@ -336,15 +348,15 @@ td.h-card {
 }
 
 .white-section {
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 .brown-section {
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
 
 .brown-section .header-text {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .brown-section .header-text {
@@ -352,7 +364,7 @@ td.h-card {
 }
 
 .white-section .how-article p {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .brown-section .how-article p {
@@ -377,7 +389,7 @@ td.h-card {
 }
 
 .description {
-  font-family: NeuchaRegular;
+  font-family: NeuchaRegular, sans-serif;
   font-weight: 400;
   line-height: 1.2em;
   font-size: 34px;
@@ -389,7 +401,7 @@ td.h-card {
   justify-content: center;
   width: 100%;
   height: 190px;
-  background-color: #42413C;
+  background-color: #42413c;
   padding: 0 55px;
 }
 
@@ -418,7 +430,7 @@ label input {
   height: 18px;
   width: 415px;
   padding: 15px;
-  border: 1px solid #E3E3E3;
+  border: 1px solid #e3e3e3;
   border-radius: 0;
 }
 
@@ -431,7 +443,7 @@ label button {
   position: relative;
   height: 50px;
   width: 70px;
-  background-color: #FE8A02;
+  background-color: #fe8a02;
   z-index: 1;
   border: 0;
   padding: 0;
@@ -456,20 +468,8 @@ label button::before {
   margin-top: 60px;
 }
 
-.contact p {
-  margin-top: 16px;
-  text-align: center;
-  font-size: 14px;
-}
-
 .contact p a {
   text-decoration: underline;
-}
-
-.video-section p {
-  display: block;
-  height: 26px;
-  color: #212529;
 }
 
 .brown-section .header-text .description {
